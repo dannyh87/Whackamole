@@ -6,37 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whack-a-mole</title>
     <link rel="stylesheet" href="/style.css">
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </head>
 <body>
 <div id="container">
     <div id="row-1">
-<div id="1" class="square" onclick="clickSquare()"></div>
-<div id="2" class="square" onclick="clickSquare()" ></div>
-<div id="3" class="square" onclick="clickSquare()"></div>
-<div id="4" class="square" onclick="clickSquare()"></div>
+<div id="1" class="square" onclick="clickSquare(1)"></div>
+<div id="2" class="square" onclick="clickSquare(2)" ></div>
+<div id="3" class="square" onclick="clickSquare(3)"></div>
+<div id="4" class="square" onclick="clickSquare(4)"></div>
 </div>
 <div id="row-2">
-<div id="5" class="square" onclick="clickSquare()"></div>
-<div id="6" class="square" onclick="clickSquare()"></div>
-<div id="7" class="square" onclick="clickSquare()"></div>
-<div id="8" class="square" onclick="clickSquare()"></div>
+<div id="5" class="square" onclick="clickSquare(5)"></div>
+<div id="6" class="square" onclick="clickSquare(6)"></div>
+<div id="7" class="square" onclick="clickSquare(7)"></div>
+<div id="8" class="square" onclick="clickSquare(8)"></div>
 </div>
 <div id="row-3">
-<div id="9" class="square" onclick="clickSquare()"></div>
-<div id="10" class="square" onclick="clickSquare()"></div>
-<div id="11" class="square" onclick="clickSquare()"></div>
-<div id="12" class="square" onclick="clickSquare()"></div>
+<div id="9" class="square" onclick="clickSquare(9)"></div>
+<div id="10" class="square" onclick="clickSquare(10)"></div>
+<div id="11" class="square" onclick="clickSquare(11)"></div>
+<div id="12" class="square" onclick="clickSquare(12)"></div>
 </div>
 <div id="row-4">
-<div id="13" class="square" onclick="clickSquare()"></div>
-<div id="14" class="square" onclick="clickSquare()"></div>
-<div id="15" class="square" onclick="clickSquare()"></div>
-<div id="16" class="square" onclick="clickSquare()"></div>
+<div id="13" class="square" onclick="clickSquare(13)"></div>
+<div id="14" class="square" onclick="clickSquare(14)"></div>
+<div id="15" class="square" onclick="clickSquare(15)"></div>
+<div id="16" class="square" onclick="clickSquare(16)"></div>
 </div>
 </div>
-<button>Start</button>
-<div id="timings"></div>
+<button onclick="start()">Start</button>
+<h1 id="timings">-</h1>
+<h1 id="score">-</h1>
 <div id="clock"></div>
 </body>
 </html>
