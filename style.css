@@ -1,3 +1,18 @@
+body{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-image: url("./Resources/Field.jpg");
+    background-size: cover;
+
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(228, 228, 228);
+    font-size: 100px;
+}
+
 .container{
 display: flex;
 width: 100%;
@@ -22,6 +37,9 @@ margin-right: 25%;
 }
 
 .mole{
-    background-color: brown;
+   background-image: url("./Resources/mole.jpeg");
+   background-size: 130px;
+   background-repeat: no-repeat;
 }
+
 
