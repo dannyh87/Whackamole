@@ -20,11 +20,13 @@ height: 100%;
 align-items: center;
 margin-left: 25%;
 margin-right: 25%;
+flex-direction: column;
 }
 
 #row-1, #row-2, #row-3, #row-4{
-    display: inline-flex;
-    width: 100%
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -42,4 +44,6 @@ margin-right: 25%;
    background-repeat: no-repeat;
 }
 
-
+button{
+    font-size: 30px;
+}
